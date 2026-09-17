@@ -17,7 +17,7 @@
 ## 安裝（Claude Code）
 
 ```
-/plugin marketplace add dorisericchatgpt-Gemeni/claude-harness-kit
+/plugin marketplace add https://github.com/dorisericchatgpt-Gemeni/claude-harness-kit.git
 /plugin install harness-skills@claude-harness-kit
 /plugin install cross-vendor@claude-harness-kit
 /plugin install codex@claude-harness-kit
@@ -35,3 +35,8 @@
 - 本 repo 自寫部分：MIT，見 [LICENSE](LICENSE)。
 - 第三方 skill 保留原授權，見 [plugins/harness-skills/THIRD_PARTY_NOTICES.md](plugins/harness-skills/THIRD_PARTY_NOTICES.md)。
 - voice-layer 附帶的 AI 寫作破綻清單改編自 Wikipedia，依 CC BY-SA 4.0 釋出。
+
+## 安裝失敗時
+
+- **`Host key verification failed`**：用上面的 HTTPS 網址，不要用 `owner/repo` 短寫（短寫可能走 SSH）。
+- **Windows 出現 `Filename too long`**：先在終端機跑 `git config --global core.longpaths true`，再重新 add marketplace。

@@ -75,7 +75,7 @@ agy models
 打開 Claude Code，依序輸入：
 
 ```
-/plugin marketplace add dorisericchatgpt-Gemeni/claude-harness-kit
+/plugin marketplace add https://github.com/dorisericchatgpt-Gemeni/claude-harness-kit.git
 /plugin install cross-vendor@claude-harness-kit
 /plugin install codex@claude-harness-kit
 ```
