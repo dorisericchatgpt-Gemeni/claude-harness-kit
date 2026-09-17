@@ -1,0 +1,34 @@
+{
+  "name": "claude-harness-kit",
+  "owner": {
+    "name": "claude-harness-kit contributors"
+  },
+  "description": "Claude Code 的 harness 工具包：共用 skills 與跨廠商（ChatGPT / Gemini）呼叫。",
+  "plugins": [
+    {
+      "name": "harness-skills",
+      "source": "./plugins/harness-skills",
+      "description": "一組通用的 Claude Code skills，放進 harness 就能用。"
+    },
+    {
+      "name": "cross-vendor",
+      "source": "./plugins/cross-vendor",
+      "description": "在 Claude Code 裡呼叫 Gemini（agy CLI），並用 doctor 指令檢查 Codex 與 agy 是否就緒。",
+      "license": "MIT"
+    },
+    {
+      "name": "codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/codex-plugin-cc.git",
+        "path": "plugins/codex"
+      },
+      "description": "OpenAI 官方 Codex plugin（Apache-2.0，直接從上游 openai/codex-plugin-cc 抓取，本 repo 不含其程式碼），提供 /codex:rescue 等指令。",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://github.com/openai/codex-plugin-cc",
+      "license": "Apache-2.0"
+    }
+  ]
+}

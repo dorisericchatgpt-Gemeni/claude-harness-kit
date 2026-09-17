@@ -1,0 +1,10 @@
+{
+  "name": "cross-vendor",
+  "version": "0.1.0",
+  "description": "在 Claude Code 裡呼叫 Gemini（Google Antigravity 的 agy CLI），並檢查 Codex / agy 是否就緒。",
+  "author": {
+    "name": "claude-harness-kit contributors"
+  },
+  "license": "MIT",
+  "keywords": ["gemini", "antigravity", "agy", "codex", "cross-vendor", "second-opinion"]
+}

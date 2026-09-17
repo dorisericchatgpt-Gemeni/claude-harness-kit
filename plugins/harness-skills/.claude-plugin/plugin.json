@@ -1,0 +1,9 @@
+{
+  "name": "harness-skills",
+  "version": "0.1.0",
+  "description": "一組通用的 Claude Code skills：指導教授式追問、概念家教、白話改寫、學術稿潤飾、職場難對話與 skill 開發。",
+  "author": {
+    "name": "claude-harness-kit contributors"
+  },
+  "license": "MIT"
+}
