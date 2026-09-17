@@ -85,7 +85,7 @@ agy models
 如果你比較想走 OpenAI 官方的 marketplace，第三行改成下面兩行（**兩種擇一，不要兩個都裝**）：
 
 ```
-/plugin marketplace add openai/codex-plugin-cc
+/plugin marketplace add https://github.com/openai/codex-plugin-cc.git
 /plugin install codex@openai-codex
 ```
 
